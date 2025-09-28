@@ -4,7 +4,7 @@ title: ""
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem;">
-  <img src="{{ "/assets/profile.jpg" | relative_url }}" alt="Shantanu Deshpande" style="width: 300px; height: auto; flex-shrink: 0;">
+  <img src="{{ "/assets/profile-compressed.jpg" | relative_url }}" alt="Shantanu Deshpande" style="width: 300px; height: auto; flex-shrink: 0;" loading="eager">
   <div>
     <p>I'm Shantanu, a Computer Science and Statistics student at UC Davis. Through my work in software engineering, quantitative research, and AI safety, I'm passionate about building intelligent systems that solve real-world problems.<br><br>In my free time I <a href="https://www.goodreads.com/user/show/192672997-shantanu-deshpande">love to read</a>, work out, and recently, draw on my iPad. I'm also fascinated by mythology, which led me to pursue a minor in <a href="https://classics.ucdavis.edu/">Classics</a>.</p>
   </div>
