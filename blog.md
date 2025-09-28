@@ -3,16 +3,16 @@ layout: default
 title: Blog
 ---
 
-# Blog Posts
+# Blog
 
-<ul class="post-list">
-{% for post in site.posts %}
-  <li>
-    <h3 class="post-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </h3>
-    <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-    <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-  </li>
+Browse all posts by month and year.
+
+{% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
+{% for yearMonth in postsByYearMonth %}
+  <h2>{{ yearMonth.name }}</h2>
+  <ul>
+    {% for post in yearMonth.items %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 {% endfor %}
-</ul>

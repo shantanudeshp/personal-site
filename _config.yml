@@ -1,5 +1,5 @@
 # Setup
-title: Shantanu Deshpande
+title: SD
 description: Personal site and blog
 url: https://shantanu.ai
 paginate: 5
@@ -42,8 +42,11 @@ version: 3.0.0
 
 # Navbar page list
 nav:
+  - title: Home
+    url: /
+
   - title: Blog
-    url: /archive
+    url: /blog
 
   - title: About
     url: /about

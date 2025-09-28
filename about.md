@@ -1,6 +1,6 @@
 ---
-layout: page
-title: ""
+layout: default
+title: "About"
 ---
 
 <div class="profile-container" style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem; flex-direction: column;">
