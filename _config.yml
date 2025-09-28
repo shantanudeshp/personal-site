@@ -1,6 +1,7 @@
 # Setup
 title: Shantanu Deshpande
-url: https://yourusername.github.io
+description: Personal site and blog
+url: https://shantanu.ai
 paginate: 5
 baseurl: ""
 permalink: pretty
