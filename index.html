@@ -1,0 +1,26 @@
+---
+layout: default
+title: Home
+---
+
+<div class="intro">
+  <p>Hi, I'm Shantanu, and I'm studying computer science and statistics at UC Davis. I'm particularly interested in exploring how AI can be applied to solve real-world problems. I occasionally write about my projects and experiences here too :)</p>
+</div>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.excerpt }}
+    <a href="{{ post.url | relative_url }}">Read more →</a>
+  </article>
+  {% endfor %}
+</div>
+
