@@ -31,7 +31,7 @@ title: ""
 **Research Engineer Intern** - [General Analysis](https://www.generalanalysis.com/){:target="_blank"} (Feb 2025 - Apr 2025)<br>
 *AI safety and red-teaming*
 
-**Quantitative Research Intern** - [Ancova Capital Management](https://www.ancova.com/){:target="_blank"} (Sep 2024 - Dec 2024)<br>
+**Quantitative Research Intern** - [Ancova Capital Management](https://ancovacapital.com/the-hedge-fund){:target="_blank"} (Sep 2024 - Dec 2024)<br>
 *US Equities*
 
 **Research Assistant** - [UC Davis VIDI Lab](https://vidi.cs.ucdavis.edu/){:target="_blank"} (Apr 2024 - Aug 2024)<br>
