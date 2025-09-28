@@ -18,6 +18,8 @@ title: ""
 }
 </style>
 
+---
+
 ## Education
 
 **BS Computer Science & Statistics**
