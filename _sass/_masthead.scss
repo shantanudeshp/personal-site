@@ -5,11 +5,12 @@
 .masthead {
   padding-top: var(--spacer);
   padding-bottom: var(--spacer);
-  margin-bottom: var(--spacer-3);
+  margin-bottom: var(--spacer-2);
 }
 
 .masthead-title {
   margin-bottom: 0;
+  line-height: 1.25rem;
 
   a {
     color: inherit;

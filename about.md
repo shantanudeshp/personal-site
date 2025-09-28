@@ -6,7 +6,7 @@ title: ""
 <div class="profile-container" style="display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem; flex-direction: column;">
   <img src="{{ "/assets/profile.webp" | relative_url }}" alt="Shantanu Deshpande" style="width: 300px; height: auto; flex-shrink: 0;" loading="eager" decoding="async">
   <div>
-    <p>I'm Shantanu, a Computer Science and Statistics student at UC Davis. Through my work in software engineering, quantitative research, and AI safety, I'm passionate about building intelligent systems that solve real-world problems.<br><br>In my free time I <a href="https://www.goodreads.com/user/show/192672997-shantanu-deshpande" target="_blank">love to read</a>, work out, and recently, draw on my iPad. I'm also fascinated by mythology, which led me to pursue a minor in <a href="https://classics.ucdavis.edu/" target="_blank">Classics</a>.</p>
+    <p>I'm Shantanu, a computer science and statistics student at UC Davis. Through my work in software engineering, quantitative research, and AI safety, I'm passionate about building intelligent systems that solve real-world problems.<br><br>In my free time I <a href="https://www.goodreads.com/user/show/192672997-shantanu-deshpande" target="_blank">love to read</a>, work out, and recently, draw on my iPad. I'm also fascinated by mythology, which led me to pursue a minor in <a href="https://classics.ucdavis.edu/" target="_blank">Classics</a>.</p>
   </div>
 </div>
 
