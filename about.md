@@ -23,6 +23,8 @@ title: ""
 **BS Computer Science & Statistics**
 [UC Davis](https://cs.ucdavis.edu/){:target="_blank"} (2023 - Present)
 
+---
+
 ## Experience
 
 **Machine Learning Engineer Intern** - [QuinStreet](https://www.quinstreet.com/){:target="_blank"} (Jun 2025 - Sep 2025)<br>
@@ -37,9 +39,13 @@ title: ""
 **Research Assistant** - [UC Davis VIDI Lab](https://vidi.cs.ucdavis.edu/){:target="_blank"} (Apr 2024 - Aug 2024)<br>
 *Data analysis and machine learning*
 
+---
+
 ## Technical Skills
 
 Python, Pandas, NumPy, Scikit-Learn, PyTorch, Git
+
+---
 
 ## Contact
 
