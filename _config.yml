@@ -4,13 +4,14 @@ description: Personal site and blog
 url: https://shantanu.ai
 paginate: 5
 baseurl: ""
-permalink: pretty
+permalink: /blog/:title/
 
 # Gems
 plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-feed
 
 # Optimize Jekyll
 exclude:

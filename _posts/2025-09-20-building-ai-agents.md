@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Building AI Agents (Smith and Co.)"
+title: "Building AI Agents"
 date: 2025-09-20
+tags: [work]
 ---
 
 This summer, I had the opportunity to intern at [QuinStreet Inc](https://www.quinstreet.com/){:target="_blank"} (NASDAQ: QNST), where I worked on a common challenge in customer service: creating a smarter, more helpful chatbot. As a statistician, building this system meant diving deep into software engineering principles: system design, performance handling, API integration, and working with existing production systems.
@@ -10,7 +11,7 @@ LLMs have many obvious benefits for customer support functions, as well as inter
 
 ## System Architecture
 
-![Multi-Agent System Diagram]({{ "/assets/multi-agent-design.png" | relative_url }})
+![Multi-Agent System Diagram]({{ "/assets/multi-agent-design.webp" | relative_url }})
 *Figure 1: A (rough) diagram of our multi-agent system. Note that there is some initial segmentation done (i.e. of customers seeking loans vs insurance), but the agents also possess the ability to pass queries between each other.*
 
 These multi-agent systems are useful for several key reasons:
@@ -45,7 +46,3 @@ The results were encouraging: we saw measurable increases in conversion rates in
 I'm bullish on the potential of these systems to take over many similar tasks. For customer support specifically, the combination of availability, patience, and deep knowledge access is compelling.
 
 I look forward to channeling my inner Neo in the future and taming all the agents :)
-
----
-
-*Reflecting on my summer building production multi-agent systems at QuinStreet.*

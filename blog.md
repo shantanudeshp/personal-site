@@ -5,7 +5,7 @@ title: Blog
 
 # Blog
 
-Browse all posts by month and year.
+You can subscribe to my [RSS feed]({{ "/feed.xml" | relative_url }}) to get updates on new posts.
 
 {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 {% for yearMonth in postsByYearMonth %}
