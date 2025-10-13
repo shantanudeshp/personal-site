@@ -4,7 +4,7 @@ description: Personal site and blog
 url: https://shantanu.ai
 paginate: 5
 baseurl: ""
-permalink: pretty
+permalink: /blog/:title/
 
 # Gems
 plugins:
