@@ -3,29 +3,30 @@
 // Headings, body text, lists, and other misc typographic elements.
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+  margin-bottom: var(--heading-margin-bottom);
+  margin-top: var(--heading-margin-top);
   font-weight: 600;
   line-height: 1.25;
   color: var(--heading-color);
+
+  &:first-of-type {
+    margin-top: 1em;
+  }
 }
 
 h1 {
   font-size: 2rem;
-  margin-top: 0;
 }
 
 h2 {
-  margin-top: 1rem;
   font-size: 1.5rem;
 }
 
 h3 {
-  margin-top: 1.5rem;
   font-size: 1.25rem;
 }
 
 h4, h5, h6 {
-  margin-top: 1rem;
   font-size: 1rem;
 }
 
