@@ -3,8 +3,6 @@ layout: default
 title: Blog
 ---
 
-# Blog
-
 You can subscribe to my [RSS feed]({{ "/feed.xml" | relative_url }}) to get updates on new posts.
 
 {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
