@@ -61,3 +61,7 @@ Please reach out! I am always seeking opportunities to learn and collaborate.
 - **GitHub**: [@shantanudeshp](https://github.com/shantanudeshp){:target="_blank"}
 
 I also have an [anonymous feedback form](https://forms.gle/KcSytj1bJpMoRakXA){:target="_blank"}, if that appeals to you more.
+
+<div style="margin-top: 2rem;">
+  <img src="{{ '/assets/bridge-and-water-lily-pond.webp' | relative_url }}" alt="Bridge and Water Lily Pond" style="width: 100%; height: auto; border-radius: var(--border-radius);">
+</div>

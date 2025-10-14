@@ -16,5 +16,6 @@ You can subscribe to my [RSS feed]({{ "/feed.xml" | relative_url }}) to get upda
 {% endfor %}
 
 <div style="margin-top: 2rem;">
-  <img src="{{ '/assets/ovid-among-scythians.webp' | relative_url }}" alt="Ovid Among the Scythians" style="width: 100%; height: auto; border-radius: var(--border-radius);">
+  <img src="{{ '/assets/ovid-among-scythians.webp' | relative_url }}" alt="Ovid Among the Scythians" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
+  <p style="text-align: center; font-style: italic; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Laudamus veteres, sed nostris utimur annis / We praise the elders, but we live in our own time</p>
 </div>
