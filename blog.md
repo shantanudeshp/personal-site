@@ -14,3 +14,7 @@ You can subscribe to my [RSS feed]({{ "/feed.xml" | relative_url }}) to get upda
     {% endfor %}
   </ul>
 {% endfor %}
+
+<div style="margin-top: 2rem;">
+  <img src="{{ '/assets/ovid-among-scythians.webp' | relative_url }}" alt="Ovid Among the Scythians" style="width: 100%; height: auto; border-radius: var(--border-radius);">
+</div>
