@@ -7,22 +7,8 @@ title: Home
   <p>Hi, I'm Shantanu. I sometimes write about my work and life here. Nothing is AI generated, and I promise not to knowingly misinform. So, grab your <a href="https://en.wikipedia.org/wiki/Green_tea" target="_blank">beverage of choice</a> and welcome :)</p>
 </div>
 
-<hr>
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {{ post.excerpt }}
-    <a href="{{ post.url | relative_url }}">Read more →</a>
-  </article>
-  {% endfor %}
+<div class="homepage-image" style="margin-top: 1rem;">
+  <img src="{{ '/assets/lady-of-shalott.jpg' | relative_url }}" alt="The Lady of Shalott by John William Waterhouse" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
+  <p style="text-align: center; font-style: italic; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">'I am half sick of shadows,' said<br><a href="https://www.poetryfoundation.org/poems/45359/the-lady-of-shalott-1832" target="_blank">The Lady of Shalott</a>.</p>
 </div>
 

@@ -22,8 +22,7 @@ title: "About"
 
 ## Education
 
-**Computer Science (BS) and Statistics (BS)**
-[UC Davis](https://cs.ucdavis.edu/){:target="_blank"} (2023 - Present)<br>
+**Computer Science (BS) and Statistics (BS)** - [UC Davis](https://cs.ucdavis.edu/){:target="_blank"} (2023 - Present)<br>
 *Minor in Classics*
 
 ---
