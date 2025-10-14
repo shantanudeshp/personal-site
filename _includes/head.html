@@ -15,5 +15,13 @@
 
   {% seo title=false %}
 
+  <script>
+    // Prevent flash of light theme - must run before page renders
+    (function() {
+      const theme = localStorage.getItem('theme') || 'warm-light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
   <script src="//instant.page/5.1.0" type="module"></script>
 </head>
