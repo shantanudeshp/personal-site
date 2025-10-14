@@ -7,8 +7,39 @@ title: Home
   <p>Hi, I'm Shantanu. I sometimes write about my work and life here. Nothing is AI generated, and I promise not to knowingly misinform. So, grab your <a href="https://en.wikipedia.org/wiki/Green_tea" target="_blank">beverage of choice</a> and welcome :)</p>
 </div>
 
-<div class="homepage-image" style="margin-top: 1rem;">
-  <img src="{{ '/assets/lady-of-shalott.webp' | relative_url }}" alt="The Lady of Shalott by John William Waterhouse" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
-  <p style="text-align: center; font-style: italic; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">'I am half sick of shadows,' said<br><a href="https://www.poetryfoundation.org/poems/45359/the-lady-of-shalott-1832" target="_blank">The Lady of Shalott</a>.</p>
+<style>
+.homepage-images {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-images > div {
+  flex: 1;
+  max-width: 45%;
+}
+
+@media (max-width: 768px) {
+  .homepage-images {
+    flex-direction: column;
+  }
+
+  .homepage-images > div {
+    max-width: 100%;
+  }
+}
+</style>
+
+<div class="homepage-images">
+  <div>
+    <img src="{{ '/assets/sick-of-shadows.webp' | relative_url }}" alt="The Lady of Shalott by John William Waterhouse" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
+    <p style="text-align: center; font-style: italic; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">'I am half sick of shadows,' said<br><a href="https://www.poetryfoundation.org/poems/45359/the-lady-of-shalott-1832" target="_blank">The Lady of Shalott</a>.</p>
+  </div>
+  <div>
+    <img src="{{ '/assets/tribute-money.webp' | relative_url }}" alt="The Tribute Money" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
+    <p style="text-align: center; font-style: italic; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Ἀπόδοτε οὖν τὰ Καίσαρος Καίσαρι<br>καὶ τὰ τοῦ Θεοῦ τῷ Θεῷ</p>
+  </div>
 </div>
 
