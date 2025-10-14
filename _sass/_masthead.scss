@@ -34,7 +34,12 @@
   line-height: 1.25rem;
   word-spacing: 1rem;
 
+  small {
+    opacity: 1;
+  }
+
   a {
+    color: var(--text-primary);
     text-decoration: none;
 
     &:hover {
