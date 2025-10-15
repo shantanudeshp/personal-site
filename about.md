@@ -63,5 +63,6 @@ Please reach out! I am always seeking opportunities to learn and collaborate.
 I also have an [anonymous feedback form](https://forms.gle/KcSytj1bJpMoRakXA){:target="_blank"}, if that appeals to you more.
 
 <div style="margin-top: 2rem;">
-  <img src="{{ '/assets/bridge-and-water-lily-pond.webp' | relative_url }}" alt="Bridge and Water Lily Pond" style="width: 100%; height: auto; border-radius: var(--border-radius);">
+  <img src="{{ '/assets/bridge-and-water-lily-pond.webp' | relative_url }}" alt="Bridge and Water Lily Pond" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
+  <p style="text-align: center; font-style: italic; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">蓮池の浮葉水こす五月雨</p>
 </div>
