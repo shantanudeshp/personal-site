@@ -42,3 +42,6 @@ Thumbs.db
 # Node modules (if using any Node tools)
 node_modules/
 npm-debug.log*
+
+# Claude Code
+.claude/
