@@ -29,9 +29,6 @@ title: "About"
 
 ## Experience
 
-**Product Manager** - [CodeLab](https://codelabdavis.com/){:target="_blank"} (Oct 2025 - Present)<br>
-*FQ25: [Veeva Systems](https://www.veeva.com/){:target="_blank"}*
-
 **Machine Learning Engineer Intern** - [QuinStreet](https://www.quinstreet.com/){:target="_blank"} (Jun 2025 - Sep 2025)<br>
 *Building multi-agent systems*
 
