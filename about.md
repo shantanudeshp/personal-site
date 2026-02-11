@@ -6,7 +6,7 @@ title: "About"
 <div class="profile-container" style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem; flex-direction: column;">
   <img src="{{ "/assets/profile.webp" | relative_url }}" alt="Shantanu Deshpande" width="300" height="300" style="width: 300px; height: auto; flex-shrink: 0; margin-bottom: 0;" loading="eager" decoding="async" fetchpriority="high">
   <div style="display: flex; align-items: center;">
-    <p style="margin: 0;">I'm Shantanu, a computer science and statistics student at UC Davis. Through my work in software engineering, quantitative research, and AI safety, I'm passionate about building intelligent systems that solve real-world problems.<br><br>In my free time I <a href="https://www.goodreads.com/user/show/192672997-shantanu-deshpande" target="_blank">love to read</a>, grow plants, drink tea, and play poker. I'm also fascinated by mythology, which led me to pursue a minor in <a href="https://www.thebritishacademy.ac.uk/blog/what-is-classics/" target="_blank">Classics</a>.</p>
+    <p style="margin: 0;">I'm currently a student at UC Davis studying computer science and statistics. Through my work in software engineering, quantitative research, and AI safety, I'm passionate about building intelligent systems that solve real-world problems.<br><br>In my free time I <a href="https://www.goodreads.com/user/show/192672997-shantanu-deshpande" target="_blank">love to read</a>, grow plants, drink tea, and play poker. I'm also fascinated by mythology, which led me to pursue a minor in <a href="https://www.thebritishacademy.ac.uk/blog/what-is-classics/" target="_blank">Classics</a>.</p>
   </div>
 </div>
 
