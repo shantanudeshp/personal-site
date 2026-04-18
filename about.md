@@ -29,6 +29,9 @@ title: "About"
 
 ## Experience
 
+**True Ventures Fellow** - [True Ventures](https://trueventures.com/){:target="_blank"} / [ChatSee](https://www.chatsee.ai/){:target="_blank"} (Jun 2026 - Aug 2026)<br>
+*AI agent reliability research*
+
 **Machine Learning Engineer Intern** - [QuinStreet](https://www.quinstreet.com/){:target="_blank"} (Jun 2025 - Sep 2025)<br>
 *Building multi-agent systems*
 
