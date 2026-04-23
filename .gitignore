@@ -33,6 +33,12 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+*.bak
+.Rhistory
+
+# Unused generated/source image variants
+assets/drawn_shanty.png
+assets/norwegian_wood_cover.webp
 
 # Environment variables
 .env

@@ -1,7 +1,4 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "jekyll-gist"
-gem "jekyll-paginate"
-gem "jekyll-seo-tag"
-gem "jekyll-feed"
+gem "github-pages", "~> 232", group: :jekyll_plugins
+gem "faraday-retry", "~> 2.3"

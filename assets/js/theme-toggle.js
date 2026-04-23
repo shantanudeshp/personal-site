@@ -16,16 +16,25 @@
    * Get current theme from localStorage, defaulting to light theme
    */
   function getTheme() {
-    return localStorage.getItem(THEME_KEY) || THEME_LIGHT;
+    try {
+      return localStorage.getItem(THEME_KEY) || THEME_LIGHT;
+    } catch (error) {
+      return THEME_LIGHT;
+    }
   }
 
   /**
    * Set theme and persist to localStorage
    */
   function setTheme(theme) {
-    localStorage.setItem(THEME_KEY, theme);
+    try {
+      localStorage.setItem(THEME_KEY, theme);
+    } catch (error) {
+      // Storage can be unavailable in some privacy modes.
+    }
     document.documentElement.setAttribute('data-theme', theme);
     updateIcon(theme);
+    updateToggleLabel(theme);
   }
 
   /**
@@ -38,6 +47,17 @@
     const icon = theme === THEME_DARK ? '☾' : '☀';
     const className = theme === THEME_DARK ? 'icon-moon' : 'icon-sun';
     container.innerHTML = `<span class="${className}">${icon}</span>`;
+  }
+
+  /**
+   * Keep the control label accurate for assistive tech.
+   */
+  function updateToggleLabel(theme) {
+    const button = document.getElementById('theme-toggle');
+    if (!button) return;
+
+    const label = theme === THEME_DARK ? 'Switch to light mode' : 'Switch to dark mode';
+    button.setAttribute('aria-label', label);
   }
 
   /**

@@ -5,7 +5,7 @@ date: 2025-09-20
 tags: [work]
 ---
 
-This summer, I had the opportunity to intern at [QuinStreet Inc](https://www.quinstreet.com/){:target="_blank"} (NASDAQ: QNST), where I worked on a common challenge in customer service: creating a smarter, more helpful chatbot. As a statistician, building this system meant diving deep into software engineering principles: system design, performance handling, API integration, and working with existing production systems.
+This summer, I had the opportunity to intern at [QuinStreet Inc](https://www.quinstreet.com/){:target="_blank" rel="noopener noreferrer"} (NASDAQ: QNST), where I worked on a common challenge in customer service: creating a smarter, more helpful chatbot. As a statistician, building this system meant diving deep into software engineering principles: system design, performance handling, API integration, and working with existing production systems.
 
 LLMs have many obvious benefits for customer support functions, as well as interesting emergent properties that make them uniquely well-suited to this task. I worked on all parts of building this chatbot, including the design of the 'agent' (prompt and context engineering, tool building) and making the system performant to keep users engaged (managing latency, tone, and evaluations).
 
@@ -23,7 +23,7 @@ These multi-agent systems are useful for several key reasons:
 
 ## Agent Handoffs
 
-The handoff mechanism where an agent passes a query to another agent works very similarly to a tool call (see the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/handoffs/){:target="_blank"} for an example). When a handoff happens in response to a user query, it's as if the new agent took over the conversation.
+The handoff mechanism where an agent passes a query to another agent works very similarly to a tool call (see the [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/handoffs/){:target="_blank" rel="noopener noreferrer"} for an example). When a handoff happens in response to a user query, it's as if the new agent took over the conversation.
 
 ## Interesting Discoveries
 

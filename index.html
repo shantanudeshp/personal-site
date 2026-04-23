@@ -4,54 +4,28 @@ title: Home
 ---
 
 <div class="intro">
-  <p>Hi, I'm Shantanu. I sometimes write about my work and life here. Nothing is AI generated, and I promise not to knowingly misinform. So, grab your <a href="https://en.wikipedia.org/wiki/Green_tea" target="_blank">beverage of choice</a> and welcome :)</p>
+  <p>Hi, I'm Shantanu. I sometimes write about my work and life here. Nothing is AI generated, and I promise not to knowingly misinform. So, grab your <a href="https://en.wikipedia.org/wiki/Green_tea" target="_blank" rel="noopener noreferrer">beverage of choice</a> and welcome :)</p>
 </div>
 
 {% assign latest_post = site.posts.first %}
 {% if latest_post %}
-<div style="margin-top: 1rem; padding: 1rem; background-color: var(--bg-card); border-radius: var(--border-radius); border-left: 3px solid var(--accent);">
-  <h3 style="margin-top: 0;">Latest Post</h3>
-  <h4 style="margin-bottom: 0.5rem;"><a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h4>
-  <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.75rem;">{{ latest_post.date | date: "%B %d, %Y" }}</p>
+<div class="latest-post">
+  <h3>Latest Post</h3>
+  <h4><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h4>
+  <p class="latest-post-date">{{ latest_post.date | date: "%B %d, %Y" }}</p>
   {{ latest_post.excerpt }}
 </div>
 {% endif %}
 
-<style>
-.homepage-images {
-  margin-top: 2rem;
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.homepage-images > div {
-  flex: 1;
-  max-width: 45%;
-}
-
-@media (max-width: 768px) {
-  .homepage-images {
-    flex-direction: column;
-  }
-
-  .homepage-images > div {
-    max-width: 100%;
-  }
-}
-</style>
-
 <div class="homepage-images">
   <div>
-    <a href="https://www.poetryfoundation.org/poems/45359/the-lady-of-shalott-1832" target="_blank">
-      <img src="{{ '/assets/sick-of-shadows.webp' | relative_url }}" alt="The Lady of Shalott by John William Waterhouse" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
+    <a href="https://www.poetryfoundation.org/poems/45359/the-lady-of-shalott-1832" target="_blank" rel="noopener noreferrer">
+      <img src="{{ '/assets/sick-of-shadows.webp' | relative_url }}" alt="The Lady of Shalott by John William Waterhouse">
     </a>
-    <p style="text-align: center; font-style: italic; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">'I am half sick of shadows,' said<br>The Lady of Shalott.</p>
+    <p class="figure-caption is-italic">'I am half sick of shadows,' said<br>The Lady of Shalott.</p>
   </div>
   <div>
-    <img src="{{ '/assets/drawn_shanty.webp' | relative_url }}" alt="A doodle of Shanty" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
-    <p style="text-align: center; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">A doodle of my likeness.<br>[<em>Doodle of Shanty</em> - M]</p>
+    <img src="{{ '/assets/drawn_shanty.webp' | relative_url }}" alt="A doodle of Shanty">
+    <p class="figure-caption">A doodle of my likeness.<br>[<em>Doodle of Shanty</em> - M]</p>
   </div>
 </div>
-

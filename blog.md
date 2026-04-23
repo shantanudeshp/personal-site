@@ -7,15 +7,15 @@ You can subscribe to my [RSS feed]({{ "/feed.xml" | relative_url }}) to get upda
 
 {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 {% for yearMonth in postsByYearMonth %}
-<h2 style="margin-bottom: 0.25rem !important; margin-top: 0.75rem !important;">{{ yearMonth.name }}</h2>
-<ul style="margin-top: 0 !important; margin-bottom: 0.5rem !important;">
+<h2 class="archive-heading">{{ yearMonth.name }}</h2>
+<ul class="archive-list">
   {% for post in yearMonth.items %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 {% endfor %}
 
-<div style="margin-top: 2rem;">
-  <img src="{{ '/assets/ovid-among-scythians.webp' | relative_url }}" alt="Ovid Among the Scythians" style="width: 100%; height: auto; border-radius: var(--border-radius); margin-bottom: 0.5rem;">
-  <p style="text-align: center; font-style: italic; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">Laudamus veteres, sed nostris utimur annis / We praise the elders, but we live in our own time</p>
+<div class="site-figure">
+  <img src="{{ '/assets/ovid-among-scythians.webp' | relative_url }}" alt="Ovid Among the Scythians">
+  <p class="figure-caption is-italic">Laudamus veteres, sed nostris utimur annis / We praise the elders, but we live in our own time</p>
 </div>
