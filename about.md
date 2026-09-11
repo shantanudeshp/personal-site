@@ -48,7 +48,7 @@ Python, C/C++, SQL, Pandas, NumPy, Scikit-Learn, PyTorch, Git
 
 Please reach out! I am always seeking opportunities to learn and collaborate.
 
-- **Email**: [sdeshp@ucdavis.edu](mailto:sdeshp@ucdavis.edu)
+- **Email**: [shantanudeshpwork@gmail.com](mailto:shantanudeshpwork@gmail.com)
 - **GitHub**: [@shantanudeshp](https://github.com/shantanudeshp){:target="_blank" rel="noopener noreferrer"}
 - **Twitter/X**: [@shantanudeshp](https://x.com/shantanudeshp){:target="_blank" rel="noopener noreferrer"}
 
